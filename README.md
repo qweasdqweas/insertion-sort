@@ -42,7 +42,7 @@ pass 6
 		
 		int i, j, temp;
 		
-		int arr [] = {3,1,4,2,5} ;
+		int arr [] = {4,2,5,6,1,3} ;
 		
 		for(i=0; i<arr.length; i++) {
 		
