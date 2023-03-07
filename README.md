@@ -66,6 +66,7 @@ PASS 2와 같은 경우다. 선택된 데이터인 6 이 앞서 정렬된 데이
 
 <img src ="https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/resources/bubble-sort-001.gif">
 
+### JAVA 코드
 
 	public static void main(String[] args) {
 		
@@ -83,4 +84,5 @@ PASS 2와 같은 경우다. 선택된 데이터인 6 이 앞서 정렬된 데이
 	System.out.println(Arrays.toString(arr));
 	}
 
+### 실행 결과
 ![image](https://user-images.githubusercontent.com/114748816/223307014-989728f0-4074-4eaa-a488-bcc9ce5ab193.png)
