@@ -65,3 +65,26 @@ PASS 2와 같은 경우다. 선택된 데이터인 6 이 앞서 정렬된 데이
 선택 정렬과 기본 개념이 유사하다.
 
 <img src ="https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/resources/bubble-sort-001.gif">
+
+
+package project;
+
+import java.util.Arrays;
+
+public class bubble {
+	public static void main(String[] args) {
+		
+		int[] arr = {4,5,7,1,2,6,3};
+		int temp = 0;
+		for(int i = 0; i < arr.length - 1; i++) {
+			for(int j= 1 ; j < arr.length-i; j++) {
+				if(arr[j]<arr[j-1]) {
+					temp = arr[j-1];
+					arr[j-1] = arr[j];
+					arr[j] = temp;
+				}
+			}
+		}
+	System.out.println(Arrays.toString(arr));
+	}
+}
