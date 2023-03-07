@@ -64,3 +64,4 @@ PASS 2와 같은 경우다. 선택된 데이터인 6 이 앞서 정렬된 데이
 인접한 2개의 레코드를 비교하여 크기가 순서대로 되어 있지 않으면 서로 교환한다.
 선택 정렬과 기본 개념이 유사하다.
 
+<img src ="https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/resources/bubble-sort-001.gif">
